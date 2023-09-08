@@ -1,0 +1,58 @@
+body{
+  background-image: url(./pexels-felix-mittermeier-956999.jpg);
+  background-size: cover ;
+
+
+
+}
+img{
+  width: 70px;
+  height: 60px;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+nav{
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+ul{
+  list-style-type: none;
+  display: flex;
+
+
+}
+.home{
+margin-right: 12px;
+
+
+}
+.contact{
+ margin-right: 20px;
+
+
+}
+a{
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: black;
+
+}
+button{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
