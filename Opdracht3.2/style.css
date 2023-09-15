@@ -1,0 +1,13 @@
+input {
+  margin-top: 6px;
+  padding: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: beige;
+  color: rgb(0, 0, 0);
+  border-color: black;
+}
+label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flexbox;
+  justify-content: center;
+}
