@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action=""></form>
+	<div align="center">
+		<label for="FirstName">Naam</label>
+		<input type="text" name="FirstName" pattern="[^0-9]*">
+	</div>
+	<div align="center">
+		<label for="surname">Achternaam</label>
+		<input type="text" name="surname" pattern="[^0-9]*">
+	</div>
+	<div align="center">
+		<label for="age">Leeftijd</label>
+		<input type="date" name="age">
+	</div>
+	<div align="center">
+		<label for="">Man</label>
+		<input type="radio" name="gender" value="Man" checked>
+		<label for="">Vrouw</label>
+		<input type="radio" name="gender" value="Vrouw">
+	</div>
+	<div align="center">
+		<label for="">Adress</label>
+		<input type="text" name="adress">
+	</div>
+	<div align="center">
+		<label for="">Postcode</label>
+		<input type="text" name="postadress">
+	</div>
+	<div align="center">
+		<label for="">Stad</label>
+		<input type="text" name="city">
+	</div>
+	<div align="center">
+		<label for="">Land</label>
+		<input type="text" name="country">
+	</div>
+	<div align="center">
+		<label for="">BSN-Nummer</label>
+		<input type="number" name="BSN-Number" maxlength="9">
+	</div>
+	<div align="center">
+		<label for="">Vakantie Land</label>
+		<select name="City" id="country">
+			<option value="Netherlands">Nederland</option>
+			<option value="Japan">Japan</option>
+			<option value="italy">Italië</option>
+			<option value="Germany">Duitsland</option>
+			<option value="Iceland">Ijsland</option>
+		</select>
+	</div>
+	<div align="center">
+		<label for="">Dag van vertrek</label>
+		<input type="date" name="Dag-van-vertek" id="Day-of-leave" min="2023-09-15">
+	</div>
+	<div align="center">
+		<label for="">Dag van terugkomst</label>
+		<input type="date" name="Dag-van-terugkomst" id="Day-of-arrival-home" min="2023-09-16">
+	</div>
+	<div align="center">
+		<label for="">Aantal personen</label>
+		<input type="number" name="Person-amount" id="amount" min="1" max="4" required>
+	</div>
+	<div align="center">
+		<label for="">Wachtwoord</label>
+		<input type="password" name="password" id="password">
+	</div>
+	<div align="center">
+		<label for="">E-mail</label>
+		<input type="text" name="e-mail" id="e-mail">
+	</div>
+	<div align="center">
+		<input type="submit" name="submit_form" id="submit_form">
+	</div>
+	<div align="center">
+		<input type="reset" id="reset">
+	</div>
+</body>
+
+</html>
