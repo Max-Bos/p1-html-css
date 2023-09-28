@@ -160,3 +160,10 @@ li a {
 .float-right-white h2 {
 	font-size: 30px;
 }
+.contact-size-1 {
+	padding: 12px 30px 12px 30px;
+}
+.contact-size-2 {
+	padding: 20px 30px 20px 30px;
+	margin-top: 4px;
+}
