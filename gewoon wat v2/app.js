@@ -10,35 +10,33 @@ let clicksadded = 0
 let aantalcps = document.getElementById("aantalcps")
 
 clickable.addEventListener("click", function () {
-    countnumber++
-    counter.innerHTML = countnumber
+	countnumber++
+	counter.innerHTML = countnumber
 })
 
 up1.addEventListener("click", function () {
-    if (countnumber >= kost) {
-        countnumber = countnumber - kost
-        counter.innerHTML = countnumber
-        kost = Math.round(kost * 1.3)
-        kosten.innerHTML = kost
-        clicksadded++
-    }
+	if (countnumber >= kost) {
+		countnumber = countnumber - kost
+		counter.innerHTML = countnumber
+		kost = Math.round(kost * 1.3)
+		kosten.innerHTML = kost
+		clicksadded++
+	}
 })
 
 function update() {
-    countnumber = countnumber + clicksadded
-    counter.innerHTML = countnumber
+	countnumber = countnumber + clicksadded
+	counter.innerHTML = countnumber
 }
 
 setInterval(update, 1000)
 
-
 function updateCPS() {
-    aantalcps.innerText = clicksadded
-
+	aantalcps.innerText = clicksadded
 }
-setInterval(updateCPS, 10) 
+setInterval(updateCPS, 10)
 function updateTitle() {
 	document.title = countnumber
-	}
-	
-	setInterval(updateTitle, 1000)
+}
+
+setInterval(updateTitle, 1000)

@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.flex-container {
+	background-color: gray;
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.item {
+	background-color: darkblue;
+	width: 100px;
+	height: 100px;
+	color: white;
+	height: 50%;
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: column wrap;
+}
