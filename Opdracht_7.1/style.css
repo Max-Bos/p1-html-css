@@ -10,21 +10,27 @@ nav {
 	font-size: 40px;
 	text-align: center;
 	background-color: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div{
+	display: flex;
 }
 .section1 {
-	font-size: 40px;
+	font-size: 20px;
 	background-color: rgb(223, 223, 0);
 	height: 30vh;
 	padding: 2vh 0px 0px 2vw;
 }
 .section2 {
-	font-size: 40px;
+	font-size: 20px;
 	background-color: rgb(255, 179, 0);
 	height: 30vh;
 	padding: 2vh 0px 0px 2vw;
 }
 .section3 {
-	font-size: 40px;
+	font-size: 20px;
 	background-color: rgb(106, 187, 1);
 	height: 30vh;
 	padding: 2vh 0px 0px 2vw;
@@ -33,7 +39,7 @@ nav {
 	nav {
 		background-color: rgb(38, 110, 226);
 		height: 10vh;
-		font-size: 20px;
+		font-size: 30px;
 		text-align: center;
 	}
 	.section1 {
